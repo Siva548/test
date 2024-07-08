@@ -1,4 +1,4 @@
-from all_sorting_techniques import *
+from all_sorting_techniques import bubble_sort, selection_sort, insertion_sort, merge_sort, quick_sort
 
 arr = [64, 34, 25, 12, 22, 11, 90]
 
