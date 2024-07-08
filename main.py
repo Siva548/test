@@ -1,4 +1,4 @@
-from sorting_techniques import *
+from all_sorting_techniques import *
 
 arr = [64, 34, 25, 12, 22, 11, 90]
 
