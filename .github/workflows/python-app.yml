@@ -37,6 +37,15 @@ jobs:
         
     - name: OwnFunction
       run: python OwnFuction.py
+
+    - name: Repository Dispatch
+      uses: peter-evans/repository-dispatch@v2
+      with:
+          token: ${{ secrets.TARGET_REPO }}
+          repository: Siva548
+          event-type: trigger-repo-b-action
+
+
     # - name: Test with pytest
     #   run: |
     #     pytest
