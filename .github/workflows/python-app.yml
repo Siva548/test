@@ -42,7 +42,7 @@ jobs:
       uses: peter-evans/repository-dispatch@v2
       with:
           token: ${{ secrets.TARGET_REPO }}
-          repository: Siva548
+          repository: Siva548/TargetRepo
           event-type: trigger-repo-b-action
 
 
